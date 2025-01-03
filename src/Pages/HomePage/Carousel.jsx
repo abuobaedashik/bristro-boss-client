@@ -11,7 +11,12 @@ import b6 from '../../assets/home/06.png'
 const CarouselHero = () => {
     return (
         <div>
-           <Carousel interval={3000} autoPlay infiniteLoop >
+           <Carousel
+            interval={3000}
+            thumbWidth={100}
+            autoPlay
+             infiniteLoop
+              className="flex items-center gap-2  justify-center flex-col">
                 <div>
                     <img src={b1} />
                 </div>
